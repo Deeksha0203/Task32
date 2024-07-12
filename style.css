@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(10, 165, 158);
+    padding: 20px 30px;
+    width: 100%;
+}
+
+h2{
+    padding: 10px;
+    text-shadow: 1px 1px;
+}
+
+input[type="text"], button[type="submit"]{
+    margin: 4px;
+    width: 100%;
+    background-color: whitesmoke;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
